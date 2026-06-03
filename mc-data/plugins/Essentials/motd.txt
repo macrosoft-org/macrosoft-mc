@@ -1,8 +1,0 @@
-&7&m---------------------------------------------------
-&eBem-vindo à &b&lMacrosoft&e, &f{PLAYER}&e!
- 
-&7» &fUse &c/sethome&f para marcar a sua casa.
-&7» &fUse &c/spawn&f para ir para a área principal.
- 
-&7Jogadores online: &a{ONLINE}
-&7&m---------------------------------------------------
