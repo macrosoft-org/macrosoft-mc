@@ -1,0 +1,38 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# Arquivos base e executáveis do Minecraft (a imagem Docker cuida disso)
+mc-data/*.jar
+mc-data/cache/
+mc-data/bundler/
+mc-data/libraries/
+mc-data/versions/
+
+# Mundos (Pesados e mudam a cada segundo)
+mc-data/world/
+mc-data/world_nether/
+mc-data/world_the_end/
+
+# Logs e Relatórios de Crash
+mc-data/logs/
+mc-data/crash-reports/
+
+# Arquivos temporários e de estado de jogadores
+mc-data/usercache.json
+mc-data/*.json.bak
+
+# Plugins (Ignora os executáveis, mas mantém as pastas de configuração)
+mc-data/plugins/*.jar
+
+# Arquivos de ambiente e estado gerados pelo Docker/ITZG
+mc-data/.paper.env
+mc-data/.papermc-manifest.json
+mc-data/.rcon-cli.env
+mc-data/.rcon-cli.yaml
+
+# Outros
+.DS_Store
+*.bak
+*~
