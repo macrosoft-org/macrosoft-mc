@@ -2,22 +2,22 @@ version: "3.8"
 
 services:
   minecraft-server:
-    image: itzg/minecraft-server:java8
+    image: itzg/minecraft-server:java11
     container_name: mc-server-1.8
     ports:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      VERSION: "1.8.8" # O Paper utiliza a 1.8.8 como versão definitiva da 1.8
+      VERSION: "1.8.8"
       TYPE: "PAPER"
       LEVEL_TYPE: "FLAT"
       ENABLE_WHITELIST: "TRUE"
       ENFORCE_WHITELIST: "TRUE"
-      # Coloque o seu nick aqui para já nascer como administrador
       OPS: "XBox"
-      # Desativa a autenticação da Mojang
       ONLINE_MODE: "FALSE"
-      MOTD: "Macrosoft Restricted Area" # <-- Adicione sua mensagem aqui
+      MOTD: "Macrosoft Restricted Area"
+      # Desativa o sistema de rede problemático no Java 11+
+      USE_NATIVE_TRANSPORT: "false"
     volumes:
       - ./mc-data:/data
     restart: unless-stopped

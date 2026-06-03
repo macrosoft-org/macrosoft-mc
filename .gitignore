@@ -32,6 +32,18 @@ mc-data/.papermc-manifest.json
 mc-data/.rcon-cli.env
 mc-data/.rcon-cli.yaml
 
+# Bancos de dados e logs de Plugins
+mc-data/plugins/**/*.db
+mc-data/plugins/**/*.log
+mc-data/plugins/**/*.bin
+
+# Dados de jogadores (Essentials)
+mc-data/plugins/Essentials/userdata/
+
+# Bibliotecas e Caches baixados automaticamente (LuckPerms)
+mc-data/plugins/LuckPerms/libs/
+mc-data/plugins/LuckPerms/translations/repository/
+
 # Outros
 .DS_Store
 *.bak
