@@ -23,6 +23,12 @@ mc-data/crash-reports/
 mc-data/usercache.json
 mc-data/*.json.bak
 
+# --- REGRAS DE PLUGINS ---
+# 1. Ignora TUDO o que é .jar
+mc-data/**/*.jar
+# 2. EXCETO o que está dentro da pasta de plugins
+!mc-data/plugins/**/*.jar
+
 # Plugins (Ignora os executáveis, mas mantém as pastas de configuração)
 mc-data/plugins/*.jar
 
