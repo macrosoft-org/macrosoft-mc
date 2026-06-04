@@ -1,0 +1,21 @@
+portals:
+  PortalSurvival:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: XBox
+    location: -132.0,3.0,-500.0:-131.0,8.0,-500.0
+    world: world
+  PortalFlat:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: XBox
+    location: -1.0,70.0,3.0:0.0,75.0,3.0
+    world: Survival

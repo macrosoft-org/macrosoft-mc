@@ -11,8 +11,14 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
 settings:
-  debug: false
   save-user-cache-on-stop-only: false
   user-cache-size: 1000
   int-cache-limit: 1024
@@ -34,13 +40,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  debug: false
 timings:
   enabled: true
   verbose: true
